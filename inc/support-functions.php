@@ -105,10 +105,6 @@ if ( ! function_exists( 'flatter_social' ) ) {
 			if ( ! empty( $url['twitter_url'] ) ) {
 				echo '<a href="' . esc_url( $url['twitter_url'] ) . '" class="topbar-social-item fa fa-twitter"></a>';
 			}
-			// Google
-			if ( ! empty( $url['google_url'] ) ) {
-				echo '<a href="' . esc_url( $url['google_url'] ) . '" class="topbar-social-item fa fa-google-plus"></a>';
-			}
 			// Instagram
 			if ( ! empty( $url['instagram_url'] ) ) {
 				echo '<a href="' . esc_url( $url['instagram_url'] ) . '" class="topbar-social-item fa fa-instagram"></a>';
